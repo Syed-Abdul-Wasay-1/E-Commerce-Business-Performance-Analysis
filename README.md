@@ -29,7 +29,7 @@ Once the data has been imported, we will perform Exploratory Data Analysis (EDA)
 ### **Data Schema** 
 A data schema is provided by Olist.
 
-![Data Schema](E-Commerce-Business-Performance-Analysis/Visuals/Data%20Schema.png)
+![Data Schema](Visuals/Data%20Schema.png)
 
 I used this Data schema to understand the data and to figure out the sequence in which the tables should be created and the data should be imported. Based on the understand this is the following sequency in which the tables should be created and data should be imported.
 
