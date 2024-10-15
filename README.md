@@ -184,7 +184,7 @@ CREATE INDEX idx_product_id ON public.olist_order_items(product_id);
 CREATE INDEX idx_seller_id_items ON public.olist_order_items(seller_id);
 ```
 
-###Code Snippet for Data Importation 
+### Code Snippet for Data Importation 
 Next, we will import the data from the CSV files into the corresponding tables we have created. This process involves using the COPY command to load data efficiently.
 
 ```sql
