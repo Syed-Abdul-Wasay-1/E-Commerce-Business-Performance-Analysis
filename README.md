@@ -226,6 +226,8 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 ```
 ### **Entity Relationship Diagram** 
 
+![Entity-Relationship Diagram](Visuals/ERD.PNG)
+
 This diagram illustrates all the relations between the different tables that I created.
 
 ## Objective 2 - Exploratory Data Analysis
@@ -255,7 +257,7 @@ LIMIT 10;  -- Limiting the result to the top 10 cities
  ```
 **Visualization :**
 
-
+![Image Description](Visuals/1.PNG)
 
 **Observation :**
 
@@ -278,7 +280,7 @@ LIMIT 10;  -- Limiting the result to the top 10 states
  ```
 **Visualization :**
 
-
+![Image Description](Visuals/2.PNG)
 
 **Observation :**
 
@@ -310,7 +312,7 @@ ORDER BY
  ```
 **Visualization :**
 
-
+![Image Description](Visuals/3.PNG)
 
 **Observation :**
 
@@ -331,7 +333,7 @@ LIMIT 10;  -- Limiting the result to the top 10 cities
  ```
 **Visualization :**
 
-
+![Image Description](Visuals/4.PNG)
 
 **Observation :**
 
@@ -352,7 +354,7 @@ LIMIT 10;  -- Limiting the result to the top 10 states
  ```
 **Visualization :**
 
-
+![Image Description](Visuals/5.PNG)
 
 **Observation :**
 
@@ -385,7 +387,7 @@ ORDER BY
  ```
 **Visualization :**
 
-
+![Image Description](Visuals/6.PNG)
 
 **Observation :**
 
@@ -419,6 +421,8 @@ LIMIT 10;  -- Limiting to top 10
 
 **Visualization :**
 
+![Image Description](Visuals/8.PNG)
+
  **2. Find the top 10 cheapest product categories by average product price**
 ```SQL
 SELECT 
@@ -441,6 +445,8 @@ LIMIT 10;
 
 **Visualization :**
 
+![Image Description](Visuals/9.PNG)
+
  **3. Find the top 10 most ordered product categories**
 ```SQL
 SELECT 
@@ -461,6 +467,8 @@ ORDER BY
 LIMIT 10;
  ```
 **Visualization :**
+
+![Image Description](Visuals/10.PNG)
 
  **4. Find the most used payment method for orders**
 ```SQL
@@ -510,6 +518,7 @@ ORDER BY
  ```
 **Visualization :**
 
+![Image Description](Visuals/14.PNG)
 
  **5. Find the distribution of payment installments**
 ```SQL
@@ -541,6 +550,8 @@ FROM
  ```
 **Visualization :**
 
+![Image Description](Visuals/11.PNG)
+
 
  **6. Find the total number of orders per year and month**
 ```SQL
@@ -558,6 +569,7 @@ ORDER BY
  ```
 **Visualization :**
 
+![Image Description](Visuals/12.PNG)
 
  **7. Find the total sales revenue per year and month**
 ```SQL
@@ -575,6 +587,7 @@ ORDER BY
  ```
 **Visualization :**
 
+![Image Description](Visuals/13.PNG)
 
  **8. Find the average freight paid by customers**
 ```SQL
@@ -877,6 +890,7 @@ ORDER BY
  ```
 **Visualization :**
 
+![Image Description](Visuals/15.PNG)
 
 ** 6. Find the relation between delivery time and review score.**
 ```SQL
@@ -968,6 +982,11 @@ FROM
 WHERE 
     delivery_time > INTERVAL '35 days';
  ```
+
+**Visualization :**
+
+![Image Description](Visuals/7.PNG)
+
 **Observation :**
 If the product is delivered with in 2 weeks the avg rating is 4.35
 If the product is delivered with in 2 weeks to 3 weeks the avg rating drops to 4.13
