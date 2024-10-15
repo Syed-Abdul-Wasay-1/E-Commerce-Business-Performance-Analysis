@@ -24,6 +24,15 @@ Once the data has been imported, we will perform Exploratory Data Analysis (EDA)
 -  Sales and Revenue Insights
 - Delivery Performance and Review Analysis
 
+- ## 📊 Interactive Dashboard
+
+An interactive dashboard is included in this repository :
+
+### Page 1
+![Page 1](Visuals/Page%201.PNG)
+### Page 2
+![Page 2](Visuals/Page%202.PNG)
+
 ## Objective 1 - Database Design and Data Importation
 
 ### **Data Schema** 
